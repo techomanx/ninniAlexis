@@ -51,13 +51,111 @@
         <section class="intro reveal-on-scroll" aria-labelledby="intro-heading">
             <h2 id="intro-heading">Our Vancouver Itinerary</h2>
             <p>A relaxed, week-long celebration of family and love. We can't wait to share this beautiful city with you as we prepare for the big day.</p>
-            <div class="intro-map">
-                <h3 class="intro-map-heading">Area map</h3>
+            <div class="intro-map intro-map--custom">
+                <h3 class="intro-map-heading">Your stops at a glance</h3>
+                <figure class="custom-map-figure">
+                    <img class="custom-map-img" src="assets/itinerary-map.png" alt="Stylized map of Vancouver with pins for Grouse Mountain, Capilano Suspension Bridge, Stanley Park, Fairmont Hotel Vancouver, Yaletown, Granville Island, Kitsilano Beach, Peya Restaurant, Queen Elizabeth Park, and Vancouver International Airport (YVR)" width="518" height="1005" loading="lazy" decoding="async">
+                    <figcaption class="custom-map-caption">Every pinned place on this map appears again below with a photo.</figcaption>
+                </figure>
+            </div>
+            <div class="intro-map intro-map--streets">
+                <h3 class="intro-map-heading">Interactive street map</h3>
                 <div class="map-embed-wrap">
                     <iframe class="map-embed" title="Map of Vancouver, British Columbia" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=-123.30%2C49.20%2C-123.0%2C49.35&amp;layer=mapnik"></iframe>
                 </div>
-                <p class="intro-map-caption"><a href="https://www.google.com/maps/search/?api=1&amp;query=Vancouver%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Open full map in Google Maps</a></p>
+                <p class="intro-map-caption"><a href="https://www.google.com/maps/search/?api=1&amp;query=Vancouver%2C+BC%2C+Canada" target="_blank" rel="noopener noreferrer">Open full map in Google Maps</a> · <a href="#places-gallery">Jump to place photos</a></p>
             </div>
+        </section>
+
+        <section class="places-gallery reveal-on-scroll" id="places-gallery" aria-labelledby="places-heading">
+            <h2 id="places-heading" class="places-heading">Places on this trip</h2>
+            <p class="places-lede">One photo per stop — Vancouver locations matching the map and each day’s plan.</p>
+            <ul class="places-grid">
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/day-1.jpg" alt="Vancouver International Airport control tower" width="461" height="614" loading="lazy">
+                        <figcaption>YVR &amp; car rental</figcaption>
+                    </figure>
+                    <p class="place-note">Arrival, Enterprise pickup at the terminal, departure night.</p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/place-fairmont.jpg" alt="Fairmont Hotel Vancouver heritage building" width="900" height="600" loading="lazy">
+                        <figcaption>Fairmont Hotel Vancouver</figcaption>
+                    </figure>
+                    <p class="place-note">Our downtown base for the week.</p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/day-2.jpg" alt="Stanley Park forest" width="1024" height="737" loading="lazy">
+                        <figcaption>Stanley Park</figcaption>
+                    </figure>
+                    <p class="place-note">Seawall drive and views.</p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/place-granville.jpg" alt="Granville Island Public Market" width="900" height="600" loading="lazy">
+                        <figcaption>Granville Island</figcaption>
+                    </figure>
+                    <p class="place-note">Market, waterfront, dinner.</p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/day-3.jpg" alt="Capilano Suspension Bridge" width="1600" height="547" loading="lazy">
+                        <figcaption>Capilano Suspension Bridge Park</figcaption>
+                    </figure>
+                    <p class="place-note">Forest walk, North Shore.</p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/place-grouse.jpg" alt="Grouse Mountain above Vancouver" width="900" height="675" loading="lazy">
+                        <figcaption>Grouse Mountain</figcaption>
+                    </figure>
+                    <p class="place-note">On your map — great North Shore landmark near Capilano.</p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/day-4.jpg" alt="Gastown Steam Clock" width="1600" height="2400" loading="lazy">
+                        <figcaption>Gastown</figcaption>
+                    </figure>
+                    <p class="place-note">Steam Clock, cobblestones, lunch.</p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/place-kitsilano.jpg" alt="Kitsilano Beach and downtown view" width="900" height="614" loading="lazy">
+                        <figcaption>Kitsilano Beach</figcaption>
+                    </figure>
+                    <p class="place-note">Grass, ocean, mountains.</p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/day-5.jpg" alt="Downtown Vancouver from Queen Elizabeth Park" width="1600" height="1066" loading="lazy">
+                        <figcaption>Queen Elizabeth Park</figcaption>
+                    </figure>
+                    <p class="place-note">Quarry Gardens; lunch at Seasons in the Park.</p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/day-6.jpg" alt="Bloedel Conservatory tropical plants" width="1600" height="1066" loading="lazy">
+                        <figcaption>Bloedel Conservatory</figcaption>
+                    </figure>
+                    <p class="place-note">Civil ceremony venue.</p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/place-peya.jpg" alt="Elegant restaurant dining room in Vancouver" width="900" height="437" loading="lazy">
+                        <figcaption>Peya Restaurant</figcaption>
+                    </figure>
+                    <p class="place-note">Reception dinner. <span class="place-photo-credit">Photo shows a Vancouver dining room (illustrative).</span></p>
+                </li>
+                <li class="place-card">
+                    <figure class="place-figure">
+                        <img src="assets/places/day-7.jpg" alt="False Creek and Yaletown skyline" width="1600" height="1062" loading="lazy">
+                        <figcaption>Yaletown &amp; False Creek</figcaption>
+                    </figure>
+                    <p class="place-note">Farewell lunch, seawall, route toward YVR.</p>
+                </li>
+            </ul>
         </section>
 
         <section id="itinerary" aria-label="Daily itinerary">
@@ -331,7 +429,7 @@
 
     <footer>
         <p>Created for the celebration of Anukriti &amp; Alexis-François • September 2026</p>
-        <p class="footer-note">Day photos are real Vancouver locations from <a href="https://commons.wikimedia.org" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> (CC-licensed community photos). Swap files in <code>assets/places/</code> for your own pictures anytime.</p>
+        <p class="footer-note">The pin map at the top is your custom itinerary map. Gallery photos are Vancouver locations from <a href="https://commons.wikimedia.org" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a> (except the Peya card, which uses another Vancouver restaurant interior as a stand-in until you add a Peya photo). Replace any file in <code>assets/places/</code> or swap <code>assets/itinerary-map.png</code> anytime.</p>
     </footer>
     <script src="main.js" defer></script>
 </body>
